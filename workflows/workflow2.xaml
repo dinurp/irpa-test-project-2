@@ -1,0 +1,107 @@
+﻿<Flowchart mc:Ignorable="sap sap2010 sads" DisplayName="workflow2" sap2010:WorkflowViewState.IdRef="Flowchart_1" StartNode="{x:Reference __ReferenceID2}"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:c="clr-namespace:CxFrameworkWPF;assembly=CxFrameworkWPF"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_1">
+    <c:SnippetActivity ActivityType="SnippetActivity" CtxtId="559c0bc9-46d0-4a25-a573-801fdbb000f5" DisplayName="Set Context" sap2010:WorkflowViewState.IdRef="SnippetActivity_1">
+      <c:SnippetActivity.CustomData>
+        <x:String x:Key="SnippetId">context_set</x:String>
+        <x:String x:Key="Description">Assigns a value to a variable of the current defined Context, and update it during a run. To set it to an initial value, simply enter the number or text in the Value field.</x:String>
+        <x:String x:Key="expression">&lt;EXP&gt;&lt;![CDATA[$data$]]&gt;&lt;/EXP&gt;&lt;data&gt;c7a0180a-6d7c-4fa4-9f4f-7c2f3338a0cf&lt;/data&gt;</x:String>
+        <x:String x:Key="value">ctx.json.parse(sc.data.inJSON)</x:String>
+      </c:SnippetActivity.CustomData>
+    </c:SnippetActivity>
+    <FlowStep.Next>
+      <FlowStep x:Name="__ReferenceID1" sap2010:WorkflowViewState.IdRef="FlowStep_6">
+        <c:SnippetActivity ActivityType="SnippetActivity" CtxtId="1bd58f9c-caea-42bc-a588-aa77501b86b5" DisplayName="Custom" sap2010:WorkflowViewState.IdRef="SnippetActivity_6">
+          <c:SnippetActivity.CustomData>
+            <x:String x:Key="SnippetId">comment_2</x:String>
+            <x:String x:Key="Description">Describe functionality to be implemented in JavaSript later in the project.</x:String>
+          </c:SnippetActivity.CustomData>
+        </c:SnippetActivity>
+        <FlowStep.Next>
+          <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_4">
+            <c:SnippetActivity ActivityType="SnippetActivity" CtxtId="7b411fae-afad-4d30-b438-7a39f9170063" DisplayName="Set Context" sap2010:WorkflowViewState.IdRef="SnippetActivity_5">
+              <c:SnippetActivity.CustomData>
+                <x:String x:Key="SnippetId">context_set</x:String>
+                <x:String x:Key="Description">Assigns a value to a variable of the current defined Context, and update it during a run. To set it to an initial value, simply enter the number or text in the Value field.</x:String>
+                <x:String x:Key="expression">&lt;EXP&gt;&lt;![CDATA[$data$]]&gt;&lt;/EXP&gt;&lt;data&gt;1fffe773-1a3e-48e6-82b4-c682f53b3f96&lt;/data&gt;</x:String>
+                <x:String x:Key="value">ctx.json.stringify(sc.data.outArgs)</x:String>
+              </c:SnippetActivity.CustomData>
+            </c:SnippetActivity>
+          </FlowStep>
+        </FlowStep.Next>
+      </FlowStep>
+    </FlowStep.Next>
+  </FlowStep>
+  <x:Reference>__ReferenceID0</x:Reference>
+  <x:Reference>__ReferenceID1</x:Reference>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="SnippetActivity_1" sap:VirtualizedContainerService.HintSize="154,26.6666666666667">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="SnippetActivity_6" sap:VirtualizedContainerService.HintSize="154,26.6666666666667">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="SnippetActivity_5" sap:VirtualizedContainerService.HintSize="154,26.6666666666667">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_4">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">223,276.666666666667</av:Point>
+            <av:Size x:Key="ShapeSize">154,26.6666666666667</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_6">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">223,226.666666666667</av:Point>
+            <av:Size x:Key="ShapeSize">154,26.6666666666667</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,253.333333333333 300,276.666666666667</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="FlowStep_1">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">233,146.666666666667</av:Point>
+            <av:Size x:Key="ShapeSize">154,26.6666666666667</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">310,173.333333333333 310,203.333333333333 300,203.333333333333 300,226.666666666667</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Flowchart_1" sap:VirtualizedContainerService.HintSize="614,636">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+            <av:Size x:Key="ShapeSize">60,74.6666666666667</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,77.1666666666667 300,107.166666666667 310,107.166666666667 310,146.666666666667</av:PointCollection>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+  <sads:DebugSymbol.Symbol>dzRDOlxXb3JrXGlSUEFcdGVzdC1wcm9qZWN0LTJcd29ya2Zsb3dzXHdvcmtmbG93Mi54YW1sBAEBaw0BAQwFExkBBBYJGx0BAx4NJSEBAg==</sads:DebugSymbol.Symbol>
+</Flowchart>
